@@ -1,0 +1,28 @@
+:root {
+  --main-bg-color: #f6f6f6;
+  --main-font-color: #2e6d45;
+  --sidebar-width: 200px;
+  --box-shadow: 2px 1px 10px #00000029;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+iframe {
+  display: none !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  background-color: var(--main-bg-color);
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
